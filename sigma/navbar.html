@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        @media only screen and (max-width: 600px) {
+            #main-nav ul{
+                flex-direction: column;
+            }
+        }
+        .navbar {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .logo img {
+            /* display: inline-block; */
+            /* width: 25%; */
+        }
+
+        #main-nav {
+            display: flex;
+            /* width: 80%; */
+            /* justify-content: right; */
+            align-items: center;
+
+        }
+
+        ul {
+            display: flex;
+
+
+        }
+
+        ul li {
+            list-style: none;
+            margin: 8px;
+            padding: 2px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="image/UE-Logo-1.webp" alt="logo">
+            <!-- <a href="image/UE-Logo-1.webp"></a> -->
+        </div>
+        <div id="main-nav">
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">pricing</a></li>
+                <li><a href="#">resources</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">securty and complinance</a></li>
+            </ul>
+        </div>
+        <div></div>
+    </div>
+</body>
+
+</html>
