@@ -1,0 +1,121 @@
+.myborder{
+    border: 1px solid green;
+}
+.navbar-collapse{
+   
+    align-items: center;
+    justify-content: center;
+}
+.techvieo-nav{
+    padding-top: 10px;
+    background-color: #320F72;
+    color: white;
+    padding-bottom: 10px;
+}
+.mynav a {
+    color: white;
+}
+.dropdown-menu a {
+    color: black;
+}
+/* start home section  */
+.home-section{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height: 870px;
+    background: linear-gradient(to bottom, #370b6f, #00429b, #006dba, #0095ce, #2dbcdc);
+}
+.main-banner-content{
+    color:white;
+}
+.main-banner-content ul{
+    display: flex;
+    padding: 10px;
+    
+}
+.main-banner-content li{
+    list-style: none;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    margin: 6px;
+    border: 1px solid #ffffff40;
+}
+.main-banner-content .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+.main-banner-content h1{
+    font-size: 69px;
+    color: white;
+}
+.main-banner-content p{
+    margin: 10px;
+}
+.main-banner-content .button{
+margin-top: 10px;
+}
+.main-banner-content .button button{
+    margin-top: 28px;
+    padding: 14px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    }
+.main-banner-content .button a{
+    text-decoration: none;
+    color: blue;
+}
+.main-banner-content .button a button{
+    color: blue;
+    font-weight: 600;
+}
+.main-banner-content .button a button:hover{
+    background-color: blue;
+    color: rgb(252, 252, 253);
+}
+
+.home-section .cretive-shape{
+    position: absolute;
+    bottom: -1px;
+    z-index: -1;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+.servies-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.servies-text p{
+    color: #ff9800;
+}
+.servies-text h2{
+    font-weight: 700;
+    font-size: 50px;
+}
+.single-services-item{
+    padding: 20px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 15px 2px rgba(82, 90, 101, 0.12);
+}
+
+.services-icon .fab-style{
+    font-size: 52px;
+    margin-bottom: 35px;
+}
+.services-btn a .fab{
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: #FF6936;
+    
+}
